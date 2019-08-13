@@ -1,0 +1,56 @@
+.App {
+  padding: 20px;
+}
+
+.App h2 {
+  text-align: center;
+}
+
+form, .loading-wrapper {
+  text-align: center;
+}
+
+.results-wrapper {
+  padding: 50px 0;
+}
+
+.results-wrapper ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.results-wrapper ul li {
+  padding: 0 0 30px;
+  margin: 60px 0 0;
+  border-bottom: 1px solid;
+  display: inline-block;
+  width: 100%;
+
+}
+
+.results-wrapper ul li:last-child {
+  border-bottom: 0px;
+}
+
+.book-image {
+  display: inline-block;
+}
+
+.book-content {
+  /* width: 65%; */
+  float: right;
+}
+
+.book-content h4 {
+  margin-top: 0;
+}
+
+form input {
+  padding: 10px;
+}
+
+form button {
+  padding: 10px;
+  margin-left: -1px;
+}
